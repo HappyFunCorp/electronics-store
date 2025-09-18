@@ -3,8 +3,8 @@ import ProductCard from '@/components/ProductCard';
 import styles from './Home.module.css';
 
 export default function HomePage() {
-  const popularProducts = products.filter((p) => p.category === 'popular');
-  const trendingProducts = products.filter((p) => p.category === 'trending');
+  const popularProducts = products.filter((p) => p.category === 'popular')
+  const trendingProducts = products.filter((p) => p.category === 'trending')
 
   return (
     <div>
