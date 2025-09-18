@@ -1,0 +1,26 @@
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+  padding: 1rem 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}

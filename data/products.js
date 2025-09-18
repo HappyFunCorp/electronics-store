@@ -1,0 +1,51 @@
+export const products = [
+  {
+    id: '1',
+    name: 'QuantumBook Pro',
+    price: 1299.99,
+    description: 'The latest QuantumBook Pro with the new M4 chip. Unparalleled performance in a sleek, lightweight design. Perfect for professionals and creatives.',
+    images: ['/images/laptop-1.png', '/images/laptop-2.jpg', '/images/laptop-3.jpg'],
+    category: 'popular',
+  },
+  {
+    id: '2',
+    name: 'AuraPhone 15',
+    price: 999.00,
+    description: 'Experience the future with the AuraPhone 15. Featuring a stunning Pro-Motion display, A18 Bionic chip, and a revolutionary camera system.',
+    images: ['/images/phone-1.png', '/images/phone-2.jpg'],
+    category: 'popular',
+  },
+  {
+    id: '3',
+    name: 'SoundWave Buds',
+    price: 199.50,
+    description: 'Immerse yourself in crystal-clear audio with SoundWave Buds. Active noise cancellation and a customizable fit for all-day comfort.',
+    images: ['/images/earbuds-1.png', '/images/earbuds-2.jpg'],
+    category: 'trending',
+  },
+  {
+    id: '4',
+    name: 'Connect Watch Series 9',
+    price: 499.00,
+    description: 'The ultimate smartwatch for a healthy life. Track your workouts, monitor your health, and stay connected on the go.',
+    images: ['/images/watch-1.png', '/images/watch-2.jpg'],
+    category: 'trending',
+  },
+  // Add more products for pagination
+  {
+    id: '5',
+    name: 'Pro Gaming Mouse',
+    price: 79.99,
+    description: 'Dominate the competition with this high-precision gaming mouse. Customizable buttons and RGB lighting.',
+    images: ['/images/mouse-1.jpg'],
+    category: 'general',
+  },
+  {
+    id: '6',
+    name: 'Mechanical Keyboard X',
+    price: 149.99,
+    description: 'Feel the difference with tactile mechanical switches. A durable and responsive keyboard for typing and gaming.',
+    images: ['/images/keyboard-1.jpg'],
+    category: 'general',
+  },
+];

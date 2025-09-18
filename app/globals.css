@@ -40,3 +40,11 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Keep existing styles and add this */
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  min-height: 80vh;
+}
